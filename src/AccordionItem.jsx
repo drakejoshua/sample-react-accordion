@@ -62,7 +62,7 @@ class AccordionItem extends React.Component {
                 {
                     this.state.displayState
                     &&
-                    <div className="accordion-body p-4 border-2 border-t-0 border-white capitalize text-white rounded bg-white text-gray-800">
+                    <div className="accordion-body p-4 border-2 border-t-0 border-white capitalize rounded bg-white text-gray-800">
                         {
                             this.props.body
                         }
